@@ -49,7 +49,8 @@ INSERT INTO ranking (id_producto, cantidad) VALUES
 (7, 0),
 (8, 0),
 (9, 0),
-(10, 0);
+(10, 0),
+(11,0);
 
 
 INSERT INTO precios (id_producto, precio) VALUES
