@@ -39,6 +39,19 @@ INSERT INTO productos (nombre) VALUES
 ('Router TP-Link AX3000'),
 ('Tarjeta Gráfica RTX 4070 Ti');
 
+INSERT INTO ranking (id_producto, cantidad) VALUES
+(1, 0),
+(2, 0),
+(3, 0),
+(4, 0),
+(5, 0),
+(6, 0),
+(7, 0),
+(8, 0),
+(9, 0),
+(10, 0);
+
+
 INSERT INTO precios (id_producto, precio) VALUES
 (1, 2500),
 (2, 1200),
@@ -87,4 +100,3 @@ FROM productos p
 JOIN ranking r ON p.id_producto = r.id_producto
 JOIN precios pr ON p.id_producto = pr.id_producto
 ORDER BY r.cantidad DESC;
-
